@@ -22,4 +22,28 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+        <repository>
+          <id>ganga_groupid</id>
+          <url>http://104.154.153.62:8081/nexus/content/groups/ganga_groupid/
+</url>
+        </repository>
+   </repositories>
+   <distributionManagement>
+        <snapshotRepository>
+            <id>ganga_snap_rep</id>
+            <url>http://104.154.153.62:8081/nexus/content/repositories/ganga_snap_rep/
+</url>
+        </snapshotRepository>
+        <repository>
+            <id>ganga_release_rep</id>
+            <url>http://104.154.153.62:8081/nexus/content/repositories/ganga_release_rep/
+</url>
+        </repository>
+    </distributionManagement>
 </project>
